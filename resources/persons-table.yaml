@@ -1,0 +1,15 @@
+Resources:
+  PersonsTable:
+    Type: 'AWS::DynamoDB::Table'
+    Properties:   
+      AttributeDefinitions: 
+        - AttributeName: personId
+          AttributeType: S
+      KeySchema:
+        - AttributeName: personId
+          KeyType: HASH
+      
+      BillingMode: PAY_PER_REQUEST
+
+      TableName: ${self:custom.tableNames.persons}
+

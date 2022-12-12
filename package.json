@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "aws-sdk": "^2.690.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "serverless-dynamodb-local": "^0.2.39",
     "serverless-http": "^2.5.0",
     "serverless-offline": "^6.3.2"
